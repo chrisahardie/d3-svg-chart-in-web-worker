@@ -6,7 +6,10 @@ gulp.task('browserify', function() {
   return browserify('./src/index.js', {
     paths: [
             "./",
-            "./src"
+            "../",
+            "../../",
+            "./src",
+            "../build/Release"
           ]
     })
     .bundle()

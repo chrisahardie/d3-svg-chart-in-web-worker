@@ -3,5 +3,6 @@
 //ref: https://github.com/tmpvar/jsdom/issues/1018#issuecomment-73269131
 (function () {
     var jsdom = require('jsdom');
+    var Canvas = require('canvas');
     module.exports = jsdom;
 }());
