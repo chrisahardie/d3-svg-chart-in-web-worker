@@ -1,6 +1,6 @@
 # Description
 
-This is a small proof on concept showing how to generate a SVG in a web worker and pass it back to the main UI thread to be injected into a webpage.
+This is a small proof on concept showing how to generate a `d3` SVG chart in a web worker and pass it back to the main UI thread to be injected into a webpage.
 
 This PoC leverages `jsdom`'s experimental integration into the browser to generate a virtual DOM given web workers don't have direct access to the actual DOM. `d3` will happily use jsdom's document to generate an SVG chart - pertty cool!
 
